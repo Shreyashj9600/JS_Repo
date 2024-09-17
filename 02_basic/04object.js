@@ -33,7 +33,7 @@ const obj3 = {...obj1, ...obj2}
 const users = [
     {
         id: 1,
-        email: "h@gmail.com"
+        email: "s@gmail.com"
     },
     {
         id: 1,
@@ -44,9 +44,9 @@ const users = [
         email: "h@gmail.com"
     },
 ]
+console.log(users[0].email);
 
-users[1].email
-// console.log(tinderUser);
+console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
@@ -64,6 +64,8 @@ const course = {
 // course.courseInstructor
 
 const {courseInstructor: instructor} = course
+const {coursename,price} = course
+console.log(coursename,price)
 
 // console.log(courseInstructor);
 console.log(instructor);
