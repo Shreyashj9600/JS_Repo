@@ -62,4 +62,9 @@ num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
 ++gameCounter;
-console.log(gameCounter);
+// console.log(gameCounter);
+
+let val = 4
+
+let negVal = -val;
+console.log(negVal)
