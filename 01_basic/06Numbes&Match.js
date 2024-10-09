@@ -7,3 +7,5 @@ console.log("this is my second value 2", typeof score2);
 const score3 = new Number(400)
 console.log("this is my thired value 3", typeof score3);
 
+// const score3 = new Number(400)
+// console.log("this is my thired value 3", typeof score3);
