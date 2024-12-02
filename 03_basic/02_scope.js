@@ -10,3 +10,17 @@ if (true) {
 console.log(c);
 
 // note {block scope} {} <- global scope 
+
+function one() {
+    const username = 'shreyash'
+
+    function two() {
+        const youtube = 'chai or code '
+        console.log(username)
+    }
+    console.log(youtube)
+
+    two()
+}
+one()
+
