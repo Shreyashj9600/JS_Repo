@@ -23,4 +23,3 @@ function one() {
     two()
 }
 one()
-
